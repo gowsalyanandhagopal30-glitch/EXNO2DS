@@ -28,34 +28,61 @@ Developed by: N.Gowsalya
 Register no: 212225230085
 ```
 ```
+/*
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-
 df = pd.read_csv("titanic_dataset.csv")
-
 df
+*/
 ```
-<img width="1310" height="512" alt="Screenshot 2026-11-02 153738" src="https://github.com/user-attachments/assets/50499729-8170-4373-9dad-3345dda6b966" />
-```
-df.info()
-```
-<img width="420" height="410" alt="Screenshot 2026-11-02 153834" src="https://github.com/user-attachments/assets/bcbd1ec8-5176-4544-bcbf-118be801d55a" />
-```
-df.set_index("PassengerId", inplace=True)
 
+
+<img width="1310" height="512" alt="Screenshot 2026-11-02 153738" src="https://github.com/user-attachments/assets/50499729-8170-4373-9dad-3345dda6b966" />
+
+
+```
+/*
+df.info()
+*/
+```
+
+
+<img width="420" height="410" alt="Screenshot 2026-11-02 153834" src="https://github.com/user-attachments/assets/bcbd1ec8-5176-4544-bcbf-118be801d55a" />
+
+
+```
+/*
+df.set_index("PassengerId", inplace=True)
 df.describe()
+*/
 ```
+
+
 <img width="675" height="358" alt="Screenshot 2026-11-02 153924" src="https://github.com/user-attachments/assets/1f1c155a-46ba-40eb-a247-e7465bd73f08" />
+
+
 ```
+/*
 df.shape
+*/
 ```
+
+
 <img width="412" height="42" alt="Screenshot 2026-11-02 161752" src="https://github.com/user-attachments/assets/0a7130af-a213-4971-a16f-0102129b1dce" />
+
+
 ```
+/*
 df.nunique()
+*/
 ```
+
+
 <img width="255" height="263" alt="Screenshot 2026-11-02 154120" src="https://github.com/user-attachments/assets/7f49c7c4-1dd2-46d8-be3f-78c34699748f" />
+
+
 
 ```
 df["Survived"].value_counts()
